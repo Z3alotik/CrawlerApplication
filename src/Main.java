@@ -1,5 +1,8 @@
+import crawler.Crawler;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Crawler crawler = new Crawler();
+        crawler.crawl("https://agrp.dev");
     }
 }
